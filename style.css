@@ -1,0 +1,13 @@
+*{
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(39, 36, 36);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
