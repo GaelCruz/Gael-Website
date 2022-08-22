@@ -1,13 +1,73 @@
+@font-face {
+    font-family: 'starwars';
+    src: url(Heading-Pro-Bold-trial.ttf);
+}
+
+@font-face {
+    font-family: 'starwars-';
+    src: url(stjedise/STJEDISE.TTF);
+}
+
 *{
-    font-family: sans-serif;
-    color: white;
+    padding: 0%;
+    margin: 0%;
+    border: 0ch;
+
+    font-family: 'starwars', sans-serif;
+    color: rgb(223, 5, 5);
 }
 
 body{
-    background-color: rgb(39, 36, 36);
+    background-color: rgb(10, 10, 10);
+}
+
+.background{
+    background-image:;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .header{
     display: flex;
     justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    background-color: rgb(10, 10, 10);
+    padding: 35px;
+    font-size: 30px;
+
+}
+
+.description{
+    font-size: 30px;
+    width: 600px;
+    position: relative; top: -70px;
+    
+}
+
+.header-info{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 85px;
+
+}
+
+.intro-bod{
+    
+    display: flex;
+    justify-content: center;
+}
+
+#name{
+    color: transparent;
+    -webkit-text-stroke: 2px rgb(223, 5, 5);
+    position: relative; top: -50px;
 }
