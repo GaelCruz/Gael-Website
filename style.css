@@ -12,9 +12,7 @@
     padding: 0%;
     margin: 0%;
     border: 0ch;
-
     font-family: 'starwars', sans-serif;
-    color: rgb(223, 5, 5);
 }
 
 body{
@@ -37,6 +35,7 @@ body{
     margin-bottom: 50px;
     padding: 35px;
     font-size: 30px;
+    color: rgb(223, 5, 5)
 
 }
 
@@ -44,6 +43,7 @@ body{
     font-size: 30px;
     width: 600px;
     position: relative; top: -70px;
+    color: rgb(223, 5, 5)
     
 }
 
@@ -58,6 +58,7 @@ body{
     flex-direction: column;
     justify-content: center;
     font-size: 85px;
+    color: rgb(223, 5, 5)
 
 }
 
@@ -73,11 +74,7 @@ body{
     position: relative; top: -50px;
 }
 
-.logo-body{
-    width: 100%;
-    height: 100%;
-    background-color: aqua;
-}
+
 
 .logos{
     display: flex;
@@ -94,4 +91,38 @@ body{
     justify-content: center;
     padding: 30px;
     font-size: 50px;
+    color: rgb(223, 5, 5)
 }
+
+.about-description{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    justify-content: space-between;
+    font-size: 25px;
+    gap: 28px;
+    color: rgb(223, 5, 5)
+}
+
+.left-side-box{
+    width: 50%;
+    padding: 1%;
+    border: 10px solid rgb(65, 65, 65);
+    border-radius: 25px;
+}
+
+.right-side-box{
+    width: 50%;
+    padding: 1%;
+    border: 10px solid rgb(65, 65, 65);
+    border-radius: 25px;
+}
+
+*.projects-header{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
