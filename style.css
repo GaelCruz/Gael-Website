@@ -74,10 +74,14 @@ body{
     position: relative; top: -50px;
 }
 
-
+.logo-body{
+    display: flex;
+    
+}
 
 .logos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 100px;
     align-items: center;
@@ -118,11 +122,52 @@ body{
     border-radius: 25px;
 }
 
-*.projects-header{
+.projects-header{
     display: flex;
     justify-content: center;
     font-size: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(185, 21, 21);
     color: black;
+margin-bottom: 20px;
 }
 
+.project-list{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 28px;
+    margin: 28px;
+}
+
+.email-container{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(48, 48, 48);   
+}
+
+input[type=text],select, textarea{
+        width: 90%;
+        padding: 12px;
+        border: 1px solid red;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+}
+
+.info-body{
+    width: 50%;
+    height: 50%;
+    background-color: aliceblue;
+}
+
+.cm-header{
+    width: 100%;
+    background-color: red;
+    margin-bottom: 28px;
+}
+
+.info-container{
+    font-size: 50px;
+    padding: 5%;
+}
